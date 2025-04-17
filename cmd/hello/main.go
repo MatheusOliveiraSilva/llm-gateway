@@ -1,3 +1,4 @@
+// Package main is a simple hello world application that greets users by name.
 package main
 
 import (

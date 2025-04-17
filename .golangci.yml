@@ -1,0 +1,18 @@
+# .golangci.yml
+run:
+  timeout: 30s
+
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - staticcheck
+    - unused
+    - govet
+    - gofmt
+    - revive
+
+issues:
+  exclude-use-default: false
+  max-issues-per-linter: 0
+  max-same-issues: 0
